@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: adrianjost/files-sync-action@v2.0.4
         with:
-          GITHUB_TOKEN: '${{ secrets.BARANALABS_TOKEN }}'
+          GITHUB_TOKEN: '${{ secrets.RAJIKAK_TOKEN }}'
           TARGET_REPOS: |
             baranasoftware/bignum:main
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
